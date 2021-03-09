@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    font-family: 'NanumSquare', sans-serif !important;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    display: block;
+}
+p {
+    margin-bottom: 0;
+}
+img {
+    width: 100%;
+}
+video {
+    width: 100%;
+}
+.wrap {
+    width: 100%;
+    background: #101114;
+}
+.logo {
+    width: 50%;
+}
+.font-70{
+    font-size: 70px;
+}
+.design-intro {    
+    height: 770px;
+    background-image: url(../images/2-bg-left.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.height-900 {
+    height: 900px;
+}
+.i5color {
+    color: #727065;
+    padding-top: 100px;
+}
+.font-90 {
+    font-size: 90px;
+}
+.d-flex-end {
+    height: 600px;
+    display: flex;
+    align-items: flex-end;
+}
+.bar {
+    width: 2px;
+    height: 38px;
+    display: inline-block;
+    background: #727065;
+    float: left;
+    margin: 5px 11px;
+}
+.container-h {
+    width: 1650px;
+    margin: 0 auto;
+}
+.row {
+    width: 1650px;
+    margin: 0 auto;
+    padding: 100px;
+}
+.bar-w {
+    width: 60%;
+    height: 2px;
+    display: inline-block;
+    background: #727065;
+    margin: 5px 0 50px;
+}
+/* --------------------------------------------------- */
+.bg-tri {
+    background-image: url(../images/logo.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+/* --------------------------------------------------- */
+.inside {    
+    background-image: url(../images/6-inside-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text-dark {
+    padding-top: 152px;
+    padding-left: 95px;
+}
+.padding {
+    padding: 10px 0;
+}
+.bar-b {
+    width: 2px;
+    height: 80px;
+    display: inline-block;
+    background: #727065;
+    float: left;
+    margin: 5px 11px;
+}
+.font-80 {
+    font-size: 80px;
+    display: block;
+    color: aliceblue;
+}

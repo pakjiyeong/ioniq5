@@ -27,7 +27,7 @@ a:hover {
   }
 }
 @media (max-width:550px) {
-  html, body, * {
+  h1 {
     font-size: 13px;
   }
 }
@@ -330,7 +330,20 @@ section {
 }
 
 .charge h1 {
-  font-size: 2rem;
+  font-size: 40px;
+}
+
+.charge-br {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .charge-br {
+    display: inherit;
+  }
+  .charge h1 {
+    font-size: 26px;
+  }
 }
 
 .charge .icon-box {
@@ -338,7 +351,7 @@ section {
 }
 
 .charge .icon-box h4 {
-  font-size: 1.2rem;
+  font-size: 20px;
   font-weight: 700;
   margin: 5px 0 10px 60px;
 }

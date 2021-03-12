@@ -737,6 +737,11 @@ section {
   text-align: right;
 }
 
+.br {
+  display: none;
+  height: 40px;
+}
+
 @media (max-width:768px) {
   .footer-newsletter .social-links {
     width: 100%;
@@ -746,7 +751,7 @@ section {
     float: left;
   }
   .social-links .br {
-    height: 40px;
+    display: block;
   }
 }
 
